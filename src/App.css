@@ -1,0 +1,103 @@
+body{
+  background-color: grey;
+
+}
+
+.header{
+  background-color: rgb(43, 41, 41);
+  color: white;
+  padding: 1rem;
+  
+}
+.header h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 3rem;
+}
+.header button{
+  float: right;
+  margin-top: -4rem;
+  margin-right: 4rem;
+  padding: 1rem 2rem 1rem 2rem;
+  border: 1rem;
+  border-radius: 5rem;
+  
+}
+.header button:hover{
+  background-color: rgb(145, 142, 142);
+}
+
+.user-grid{
+   /* display: flex; */
+  padding: 2rem;
+
+}
+
+.user-card{
+  display: inline-block;
+  padding: 0 3rem 0 3rem;
+  margin: 2rem 5rem 5rem 5rem;
+  align-items: center;
+  font-weight: bold;
+  
+}
+
+.user-card h3{
+  font-size: 1.5rem;
+}
+
+
+@media only screen and (min-width:360px) and (max-width: 640px){
+
+  .header{
+    background-color: rgb(43, 41, 41);
+    color: white;
+    padding: 0.5rem;
+    width: 325px;
+    
+  }
+  .header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .header button{
+    float: right;
+    margin-top: -2.3rem;
+    margin-right: 1rem;
+    padding: 0.5rem 0.3rem 0.5rem 0.3rem;
+    border: 1rem;
+    border-radius: 5rem;
+    font-size: 0.8rem;
+  }
+
+  .header button:hover{
+    background-color: rgb(145, 142, 142);
+  }
+
+
+  .user-grid{
+    /* display: flex; */
+   padding: 2rem;
+ 
+ }
+ 
+ .user-card{
+   display: inline-block;
+   padding: 0 1rem 0 1rem;
+   margin: 2rem 1rem 2rem 1rem;
+   align-items: center;
+   font-weight: bold;
+   
+ }
+ 
+ .user-card h3{
+   font-size: 1rem;
+   padding-left:  1rem;
+ }
+
+ .user-card p{
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+ }
+}
