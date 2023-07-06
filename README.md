@@ -70,4 +70,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify]
 
 
-### Explore a live preview of the Todo List at the given link:(https://lgmvip-web-task-2-web-application.vercel.app/)
+### Explore a live preview of the Web-Application at the given link:(https://lgmvip-web-task-2-web-application.vercel.app/)
